@@ -30,5 +30,6 @@ input[type="radio"]{accent-color: black;}
 #artifact1{color: red;}
 
 #output{
+	resize: none;
 	width: 100%;
 }
