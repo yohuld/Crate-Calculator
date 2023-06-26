@@ -1,0 +1,31 @@
+div{
+	display: block;
+	text-align: center;
+	margin-top: 20%;
+	font-family: sans-serif;
+}
+
+form{
+	scale: 2;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+#submit{background-color: black;}
+
+input[type="radio"]{accent-color: black;}
+
+#crates1{font-weight: bold;}
+#abundant1{color: grey;}
+#scarce1{color: green;}
+#precious1{color: blue;}
+#exceptional1{color: purple;}
+#invaluable1{color: gold;}
+#enigma1{color: orange;}
+#artifact1{color: red;}
+
+#output{
+	width: 100%;
+}

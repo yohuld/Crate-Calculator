@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Crate Calculator</title>
+	<link rel="stylesheet" href="index.css">
+	<script src="index.js"></script>
+</head>
+<body>
+	<div>
+		<form onsubmit="atLeastOne(); return false;">
+			<label id="crates1">Crates: </label><input type="text" id="crates" placeholder="Enter a number"><br>
+			<input type="radio" name="rarity" id="abundant" value="70">
+				<label for="abundant" id="abundant1">Abundant: 70%</label><br>
+			<input type="radio" name="rarity" id="scarce" value="20">
+				<label for="scarce" id="scarce1">Scarce: 20%</label><br>
+			<input type="radio" name="rarity" id="precious" value="8">
+				<label for="precious" id="precious1">Precious: 8%</label><br>
+			<input type="radio" name="rarity" id="exceptional" value="1.5">
+				<label for="exceptional" id="exceptional1">Exceptional: 1.5%</label><br>
+			<input type="radio" name="rarity" id="invaluable" value="0.39">
+				<label for="invaluable" id="invaluable1">Invaluable: 0.39%</label><br>
+			<input type="radio" name="rarity" id="enigma" value="0.1">
+				<label for="enigma" id="enigma1">Enigma: 0.1%</label><br>
+			<input type="radio" name="rarity" id="artifact" value="0.01">
+				<label for="artifact" id="artifact1">Artifact: 0.01%</label><br>
+			<input type="submit" id="submit"><br>
+			<textarea id="output" readonly="true"></textarea>
+		</form>
+	</div>
+</body>
+</html>
