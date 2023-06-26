@@ -13,7 +13,10 @@ form{
 	text-align: left;
 }
 
-#submit{background-color: black;}
+#submit{
+	background-color: black;
+	color: white;
+}
 
 input[type="radio"]{accent-color: black;}
 
